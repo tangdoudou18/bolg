@@ -14,5 +14,5 @@ public class BlogController {
         System.out.println(order+":"+keyword);
         return "redirect:/index?order="+order+"&keyword="+keyword;
     }
-    //ttttt
+
 }
