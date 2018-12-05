@@ -51,9 +51,9 @@ public class MainController {
         userService.registerUser(user);
         return "redirect:/login";
     }
-    @GetMapping("/git1")
-    public String test1(){
-        return "hello git1";
+    @GetMapping("/git")
+    public String test2(){
+        return "hello";
     }
 
 
