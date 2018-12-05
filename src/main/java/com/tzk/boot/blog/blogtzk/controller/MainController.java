@@ -51,17 +51,6 @@ public class MainController {
         userService.registerUser(user);
         return "redirect:/login";
     }
-    @GetMapping("/git")
-    public String test2(){
-        return "hello";
-    }
 
-    @GetMapping("/git3")
-    public String test3(){
-        return "多次commit  一次push测试1";
-    }
-    @GetMapping("/git4")
-    public String test4(){
-        return "多次commit  一次push测试2";
-    }
+
 }
