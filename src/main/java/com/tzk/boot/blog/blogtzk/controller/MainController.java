@@ -55,4 +55,9 @@ public class MainController {
     public String test(){
         return "hello git";
     }
+
+    @GetMapping("/git1")
+    public String test1(){
+        return "hello git1";
+    }
 }
