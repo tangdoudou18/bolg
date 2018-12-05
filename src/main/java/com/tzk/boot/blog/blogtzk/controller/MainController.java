@@ -56,5 +56,8 @@ public class MainController {
         return "hello";
     }
 
-
+    @GetMapping("/git3")
+    public String test3(){
+        return "多次commit  一次push测试1";
+    }
 }
